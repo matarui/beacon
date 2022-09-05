@@ -10,7 +10,7 @@ navbar:
   search: true
   source_url: true
   right:
-    - text: "About us"
+    - text: "About"
       href: about.html
     - text: "Slides"
       href: slides.html

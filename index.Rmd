@@ -44,7 +44,7 @@ install.packages(c("distill", "rmarkdown", "postcards"))
   3. [Create a GitHub account](https://github.com/join)
   4. [Install GitHub Desktop](https://desktop.github.com/)
 
-On the day of the workshop, **bring your laptop** and **any material you want on your website** (photo, text about you, your project analyses in R, etc..).
+On the day of the workshop, **bring your laptop** and **any material you want on your website** (photo, text about you, your project analyses in R, [instructions for making bagels](https://stats.andrewheiss.com/bread/bagels.html) etc..).
 
 If you have any trouble with the preparations, please send [Gayoung](g.son@unibas.ch) an email!
 
