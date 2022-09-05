@@ -1,7 +1,18 @@
 ---
-title: "About us"
-description: |
-  Who we are, what we do, how we ended up here and other ramblings.
+title: "Rui Mata"
+image: "resources/rui.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/rui-mata-20070491/?originalSubdomain=ch"
+  - label: Twitter
+    url: "https://twitter.com/rui__mata"
+  - label: GitHub
+    url: "https://github.com/matarui"
+  - label: ORCID iD
+    url: "https://orcid.org/0000-0002-1679-906X"
+site: distill::distill_website
+output:
+  postcards::trestles
 ---
 
 ```{r setup, include=FALSE}
@@ -11,3 +22,10 @@ knitr::opts_chunk$set(echo = FALSE)
 # library(postcards)
 ```
 
+I head the Center for Cognitive and Decision Sciences at the University of Basel [CDS](https://cds.unibas.ch/). 
+
+I am a psychologist interested in individual and age differences in decision making, and their implications for health, wealth, and well-being. 
+
+You can find an automated list of my publications [here](https://scholar.google.ch/citations?hl=en&user=dIJjxc4AAAAJ&view_op=list_works&sortby=pubdate).
+
+Please visit my [personal webpage](https://matarui.org/) to learn more about my research, teaching, and outreach projects.
