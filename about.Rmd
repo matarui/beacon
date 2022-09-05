@@ -1,0 +1,13 @@
+---
+title: "About us"
+description: |
+  Who we are, what we do, how we ended up here and other ramblings.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# install.packages("postcards")
+# library(postcards)
+```
+
