@@ -8,7 +8,7 @@ author:
     affiliation: Center for Cognitive and Decision Sciences
     affiliation_url: https://psychologie.unibas.ch/de/fakultaet/abteilungen/cognitive-and-decision-sciences-305/
   - name: Gayoung Son
-    url: https://psychologie.unibas.ch/de/personen/gayoung-son/
+    url: https://gayoungson.github.io/
     affiliation: Center for Cognitive and Decision Sciences &  Clinical Psychology and Neuroscience
     affiliation_url: https://psychologie.unibas.ch/de/fakultaet/abteilungen/cognitive-and-decision-sciences-305/
 date: "`r Sys.Date()`"
