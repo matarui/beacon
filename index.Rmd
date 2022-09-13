@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Introduction
 
-Having your own website is like having a digital scientific ‘business card.’ Perhaps you do not know where to start, or perhaps you started but then got stuck? In this workshop, you will create your very own professional website using [R Markdown](https://rmarkdown.rstudio.com/) and [Distill](https://rstudio.github.io/distill/). No previous programming skills are required; you will start with a template, and then, step-by-step, add to this website template to represent you, your science, your teaching, your outreach activities, etc. You will also learn how and where to host your website. This website is a simple example of how your own website in [Distill](https://rstudio.github.io/distill/) could look like!
+Having your own website is like having a digital scientific ‘business card.’ Perhaps you do not know where to start, or perhaps you started but then got stuck? In this workshop, you will create your very own website using [R Markdown](https://rmarkdown.rstudio.com/) and [Distill](https://rstudio.github.io/distill/). No previous programming skills are required; you will start with a template, and then, step-by-step, add to this website template to represent you, your science, your teaching, your outreach activities, etc. You will also learn how and where to host your website. This website is a simple example of how your own website in [Distill](https://rstudio.github.io/distill/) could look like!
 
 ## Preparations for the workshop
 For the workshop, there are some **simple prerequisites**. Please make sure all the following points are ready on your laptop **before** you come to the workshop.

@@ -1,0 +1,20 @@
+---
+title: "Course Materials"
+---
+
+## Course Slides
+
+We will make the slides used in our presentation available here. 
+
+## Example Distill Websites
+
+Here are some examples of distill websites we use for teaching and collaborative science projects. 
+
+CDS Diversity Hackathon: [https://cdsbasel.github.io/Diversity_hackathon/](https://cdsbasel.github.io/Diversity_hackathon/)
+
+CDS SDG Hackathon: [https://cdsbasel.github.io/SDG_hackathon/](https://cdsbasel.github.io/SDG_hackathon/)
+
+Course website for Evidence-based Decision Making: [https://matarui.github.io/ebdm/](https://matarui.github.io/ebdm/ )
+
+
+

@@ -12,7 +12,7 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Slides"
+    - text: "Materials"
       href: slides.html
     - icon: fab fa-github
       href: https://github.com/matarui/beacon
