@@ -5,12 +5,12 @@
       "title": "Rui Mata",
       "author": [],
       "contents": "\n\n          \n          \n          \n          \n          Create Your Personal Website\n          \n          \n          About\n          Materials\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Rui Mata\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        ORCID iD\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            I head the Center for Cognitive and Decision Sciences at\n            the University of Basel CDS.\n            I am a psychologist interested in individual and age\n            differences in decision making, and their implications for\n            health, wealth, and well-being.\n            You can find an automated list of my publications here.\n            Please visit my personal\n            webpage to learn more about my research, teaching, and\n            outreach projects.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Rui Mata\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      ORCID iD\n                    \n                  \n                                  \n              \n            \n            \n              I head the Center for Cognitive and Decision Sciences\n              at the University of Basel CDS.\n              I am a psychologist interested in individual and age\n              differences in decision making, and their implications for\n              health, wealth, and well-being.\n              You can find an automated list of my publications here.\n              Please visit my personal\n              webpage to learn more about my research, teaching, and\n              outreach projects.\n            \n        \n      \n    \n\n    \n    \n    \n      Created by Gayoung Son\n      for the Center\n      of Cognitive and Decision Sciences\n      \n      \n\n  \n  ",
-      "last_modified": "2022-09-13T10:34:55+02:00"
+      "last_modified": "2022-09-13T10:43:16+02:00"
     },
     {
       "path": "index.html",
       "title": "Create Your Personal Website",
-      "description": "Welcome to the BEACON 2022 workshop website! \n",
+      "description": "Welcome to the BEACON 2022 workshop website!\n",
       "author": [
         {
           "name": "Rui Mata",
@@ -23,14 +23,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\nIntroduction\nHaving your own website is like having a digital scientific ‘business\ncard.’ Perhaps you do not know where to start, or perhaps you started\nbut then got stuck? In this workshop, you will create your very own\nwebsite using R Markdown\nand Distill. No\nprevious programming skills are required; you will start with a\ntemplate, and then, step-by-step, add to this website template to\nrepresent you, your science, your teaching, your outreach activities,\netc. You will also learn how and where to host your website. This\nwebsite is a simple example of how your own website in Distill could look\nlike!\nPreparations for the\nworkshop\nFor the workshop, there are some simple\nprerequisites. Please make sure all the following points are\nready on your laptop before you come to the\nworkshop.\nInstall\nR and RStudio\nInstall the the following packages in RStudio:\n\n\ninstall.packages(c(\"distill\", \"rmarkdown\", \"postcards\"))\n\n\n\nCreate a GitHub account\nInstall GitHub\nDesktop\nOn the day of the workshop, bring your laptop and\nany material you want on your website (photo, text\nabout you, your project analyses in R, instructions for\nmaking bagels etc..).\nIf you have any trouble with the preparations, please send Gayoung an email!\n\n\n\n",
-      "last_modified": "2022-09-13T10:34:57+02:00"
+      "last_modified": "2022-09-13T10:43:17+02:00"
     },
     {
       "path": "slides.html",
       "title": "Course Materials",
       "author": [],
       "contents": "\nCourse Slides\nWe will make the slides used in our presentation available here.\nExample Distill Websites\nHere are some examples of distill websites we use for teaching and\ncollaborative science projects.\nCDS Diversity Hackathon: https://cdsbasel.github.io/Diversity_hackathon/\nCDS SDG Hackathon: https://cdsbasel.github.io/SDG_hackathon/\nCourse website for Evidence-based Decision Making: https://matarui.github.io/ebdm/\n\n\n\n",
-      "last_modified": "2022-09-13T10:34:58+02:00"
+      "last_modified": "2022-09-13T10:43:19+02:00"
     }
   ],
   "collections": []

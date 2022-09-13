@@ -1,7 +1,8 @@
 ---
 title: "Create Your Personal Website"
 description: |
-  Welcome to the BEACON 2022 workshop website! 
+  Welcome to the BEACON 2022 workshop website!
+theme: theme.css 
 author:
   - name: Rui Mata
     url: https://psychologie.unibas.ch/de/personen/rui-mata/

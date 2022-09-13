@@ -1,5 +1,6 @@
 ---
 title: "Course Materials"
+theme: theme.css
 ---
 
 ## Course Slides

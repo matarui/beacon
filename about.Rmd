@@ -1,6 +1,7 @@
 ---
 title: "Rui Mata"
 image: "resources/rui.jpg"
+theme: theme.css
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/rui-mata-20070491/?originalSubdomain=ch"

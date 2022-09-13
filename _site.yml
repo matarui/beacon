@@ -1,5 +1,6 @@
 name: "beacon2022"
 title: "Create Your Personal Website"
+theme: theme.css
 description: |
   Create Your Personal Website
 output_dir: "docs"
@@ -7,7 +8,7 @@ navbar:
   logo:
     images: resources/unibas.png
     href: https://psychologie.unibas.ch/de/
-  search: true
+  search: false
   source_url: true
   right:
     - text: "About"
