@@ -5,7 +5,8 @@ theme: theme.css
 
 ## Course Slides
 
-We will make the slides used in our presentation available here. 
+![Workshop Slides](resources/beacon.pdf){width=700px height=550px}
+
 
 ## Example Distill Websites
 
