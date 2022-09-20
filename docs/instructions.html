@@ -88,26 +88,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Create Your Personal Website: Course Materials</title>
+  <title>Create Your Personal Website: Instructions</title>
 
+  <meta property="description" itemprop="description" content="Here are some recaps of the workshop and links to additional instructions for you to explore!"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Create Your Personal Website: Course Materials"/>
+  <meta property="og:title" content="Create Your Personal Website: Instructions"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Here are some recaps of the workshop and links to additional instructions for you to explore!"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Create Your Personal Website"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Create Your Personal Website: Course Materials"/>
+  <meta property="twitter:title" content="Create Your Personal Website: Instructions"/>
+  <meta property="twitter:description" content="Here are some recaps of the workshop and links to additional instructions for you to explore!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","theme"]}},"value":[{"type":"character","attributes":{},"value":["Course Materials"]},{"type":"character","attributes":{},"value":["theme.css"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Instructions"]},{"type":"character","attributes":{},"value":["Here are some recaps of the workshop and links to additional instructions for you to explore!\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2123,6 +2126,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <link href="site_libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
+  <script src="site_libs/panelset-0.2.6/panelset.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2142,7 +2147,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Course Materials","authors":[]}
+{"title":"Instructions","description":"Here are some recaps of the workshop and links to additional instructions for you to explore!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2171,24 +2176,59 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Course Materials</h1>
+<h1>Instructions</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Here are some recaps of the workshop and links to additional instructions for you to explore!</p></p>
 </div>
 
 
 <div class="d-article">
-<h2 id="course-slides">Course Slides</h2>
-<figure>
-<embed src="resources/beacon.pdf" width="700" height="550" />
-<figcaption aria-hidden="true">Workshop Slides</figcaption>
-</figure>
-<h2 id="example-distill-websites">Example Distill Websites</h2>
-<p>Here are some examples of distill websites we use for teaching and collaborative science projects.</p>
-<p>CDS Diversity Hackathon: <a href="https://cdsbasel.github.io/Diversity_hackathon/">https://cdsbasel.github.io/Diversity_hackathon/</a></p>
-<p>CDS SDG Hackathon: <a href="https://cdsbasel.github.io/SDG_hackathon/">https://cdsbasel.github.io/SDG_hackathon/</a></p>
-<p>Course website for Evidence-based Decision Making: <a href="https://matarui.github.io/ebdm/">https://matarui.github.io/ebdm/</a></p>
+<div class="panelset">
+<section id="setting-up-version-1" class="panel-name panel">
+<h2 class="panel-name">Setting up (version 1)</h2>
+<h3 id="creating-the-website-template-on-your-computer">Creating the website template on your computer</h3>
+<ol type="1">
+<li>In RStudio, make sure the following packages are loaded by running the following codes:</li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/rstudio/distill'>distill</a></span><span class='op'>)</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/rstudio/rmarkdown'>rmarkdown</a></span><span class='op'>)</span></span></code></pre>
+</div>
+</div>
+<aside>
+The most common errors are solved by reinstalling R and RStudio, updating R, or reinstalling and loading the packages. Check if all your brackets are correct! Otherwise, google everything ;)
+</aside>
+<ol start="2" type="1">
+<li><p>Make a new R Project by clicking on the <em>New Project</em> button.
+<img src="resources/new_project.png" width="700" alt="New Project" /></p></li>
+<li><p>Click on <em>New Directory</em>, than select <em>Distill Website</em> from the list.</p></li>
+<li><p>Give your Website a directory name (a.k.a. name the folder), the title of your website (can be changed later) and check the box to <em>configure for Github Pages</em>! Now you have created a basic template.</p></li>
+</ol>
+<h3 id="uploading-your-website-on-github">Uploading your website on GitHub</h3>
+<p>Your website template is there, but no one see it yet, because it is not “in the cloud”. For this, we will use GitHub Pages.</p>
+<ol type="1">
+<li><p>Go to GitHub and <em>create a new repository</em>. You can click on the <em>plus</em> button on the top right corner.</p></li>
+<li><p>Give your new repository a name, add a README file and .gitignore like shown in the screenshot below. Then create!
+<img src="resources/new_repo.png" width="700" alt="New Repository" /></p></li>
+</ol>
+<p>3.Go to the <em>Settings</em> of your repository, click on <em>Pages</em> and change the <em>Branch</em> to the <em>docs</em> folder and save.This tells GitHub where to find your .html files.
+<img src="resources/pages.png" width="700" alt="Deployment Branch" /></p>
+<ol start="4" type="1">
+<li><p>In your GitHub Desktop, <em>clone</em> your new repository onto your laptop.</p></li>
+<li><p>Move all the <em>contents</em> of your basic template website into the cloned folder!</p>
+<aside>
+<p>Make sure you don’t copy the folder but only the contents, also the hidden ones!</p>
+</aside></li>
+<li><p>In your GitHub Desktop, <em>commit</em>, then push! Congratulations, you have made your website!</p></li>
+</ol>
+</section>
+<section id="setting-up-version-2" class="panel">
+<h2>Setting up (version 2)</h2>
+<p>TBD</p>
+</section>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
