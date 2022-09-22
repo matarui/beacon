@@ -2,10 +2,6 @@
 title: "Instructions"
 description: |
   Here are some recaps of the workshop and links to additional instructions for you to explore!
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -20,7 +16,7 @@ xaringanExtra::use_panelset()
 ::::: {.panelset}
 
 ::: {.panel}
-## Setting up (version 1){.panel-name}
+## Setting up (version 1)
 
 ### Creating the website template on your computer
 
@@ -29,11 +25,11 @@ xaringanExtra::use_panelset()
 ```{r, eval=FALSE, echo=TRUE}
 library(distill)
 library(rmarkdown)
-```
+```  
 <aside>  
-The most common errors are solved by reinstalling R and RStudio, updating R, or reinstalling and loading the packages. Check if all your brackets are correct! Otherwise, google everything ;)
-</aside>  
-    
+The most common errors are solved by reinstalling R and RStudio, or updating R.
+</aside>
+&nbsp;  
 2. Make a new R Project by clicking on the *New Project* button.
 ![New Project](resources/new_project.png){width=700px}
 
@@ -50,17 +46,17 @@ Your website template is there, but no one see it yet, because it is not "in the
 2. Give your new repository a name, add a README file and .gitignore like shown in the screenshot below. Then create!
 ![New Repository](resources/new_repo.png){width=700px}
 
-3.Go to the *Settings* of your repository, click on *Pages* and change the *Branch* to the *docs* folder and save.This tells GitHub where to find your .html files.
+3. Go to the *Settings* of your repository, click on *Pages* and change the *Branch* to the *docs* folder and save.This tells GitHub where to find your .html files.
 ![Deployment Branch](resources/pages.png){width=700px}
 
-4. In your GitHub Desktop, *clone* your new repository onto your laptop. 
+4. In your GitHub Desktop, [*clone*](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#cloning-a-repository) your new repository onto your laptop. 
 
 5. Move all the *contents* of your basic template website into the cloned folder! 
 <aside>  
 Make sure you don't copy the folder but only the contents, also the hidden ones!
 </aside>
   
-6. In your GitHub Desktop, *commit*, then push! Congratulations, you have made your website!
+6. In your GitHub Desktop, [*commit* and *push!*](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes) Congratulations, you have made your website!
 
 :::
 

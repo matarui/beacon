@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Instructions"]},{"type":"character","attributes":{},"value":["Here are some recaps of the workshop and links to additional instructions for you to explore!\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Instructions"]},{"type":"character","attributes":{},"value":["Here are some recaps of the workshop and links to additional instructions for you to explore!"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2185,8 +2185,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <div class="panelset">
-<section id="setting-up-version-1" class="panel-name panel">
-<h2 class="panel-name">Setting up (version 1)</h2>
+<section id="setting-up-version-1" class="panel">
+<h2>Setting up (version 1)</h2>
 <h3 id="creating-the-website-template-on-your-computer">Creating the website template on your computer</h3>
 <ol type="1">
 <li>In RStudio, make sure the following packages are loaded by running the following codes:</li>
@@ -2198,11 +2198,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 </div>
 <aside>
-The most common errors are solved by reinstalling R and RStudio, updating R, or reinstalling and loading the packages. Check if all your brackets are correct! Otherwise, google everything ;)
+The most common errors are solved by reinstalling R and RStudio, or updating R.
 </aside>
-<ol start="2" type="1">
-<li><p>Make a new R Project by clicking on the <em>New Project</em> button.
-<img src="resources/new_project.png" width="700" alt="New Project" /></p></li>
+<p> <br />
+2. Make a new R Project by clicking on the <em>New Project</em> button.
+<img src="resources/new_project.png" width="700" alt="New Project" /></p>
+<ol start="3" type="1">
 <li><p>Click on <em>New Directory</em>, than select <em>Distill Website</em> from the list.</p></li>
 <li><p>Give your Website a directory name (a.k.a. name the folder), the title of your website (can be changed later) and check the box to <em>configure for Github Pages</em>! Now you have created a basic template.</p></li>
 </ol>
@@ -2212,16 +2213,14 @@ The most common errors are solved by reinstalling R and RStudio, updating R, or 
 <li><p>Go to GitHub and <em>create a new repository</em>. You can click on the <em>plus</em> button on the top right corner.</p></li>
 <li><p>Give your new repository a name, add a README file and .gitignore like shown in the screenshot below. Then create!
 <img src="resources/new_repo.png" width="700" alt="New Repository" /></p></li>
-</ol>
-<p>3.Go to the <em>Settings</em> of your repository, click on <em>Pages</em> and change the <em>Branch</em> to the <em>docs</em> folder and save.This tells GitHub where to find your .html files.
-<img src="resources/pages.png" width="700" alt="Deployment Branch" /></p>
-<ol start="4" type="1">
-<li><p>In your GitHub Desktop, <em>clone</em> your new repository onto your laptop.</p></li>
+<li><p>Go to the <em>Settings</em> of your repository, click on <em>Pages</em> and change the <em>Branch</em> to the <em>docs</em> folder and save.This tells GitHub where to find your .html files.
+<img src="resources/pages.png" width="700" alt="Deployment Branch" /></p></li>
+<li><p>In your GitHub Desktop, <a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#cloning-a-repository"><em>clone</em></a> your new repository onto your laptop.</p></li>
 <li><p>Move all the <em>contents</em> of your basic template website into the cloned folder!</p>
 <aside>
 <p>Make sure you don’t copy the folder but only the contents, also the hidden ones!</p>
 </aside></li>
-<li><p>In your GitHub Desktop, <em>commit</em>, then push! Congratulations, you have made your website!</p></li>
+<li><p>In your GitHub Desktop, <a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes"><em>commit</em> and <em>push!</em></a> Congratulations, you have made your website!</p></li>
 </ol>
 </section>
 <section id="setting-up-version-2" class="panel">
