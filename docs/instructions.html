@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Instructions"]},{"type":"character","attributes":{},"value":["Here are some recaps of the workshop and links to additional instructions for you to explore!"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Instructions"]},{"type":"character","attributes":{},"value":["Here are some recaps of the workshop and links to additional instructions for you to explore!\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["md_extensions"]}},"value":[{"type":"character","attributes":{},"value":["+emoji"]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2185,8 +2185,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <div class="panelset">
-<section id="setting-up-version-1" class="panel">
-<h2>Setting up (version 1)</h2>
+<div class="panel">
+<p><span class="panel-name">Setting up (version 1)</span></p>
 <h3 id="creating-the-website-template-on-your-computer">Creating the website template on your computer</h3>
 <ol type="1">
 <li>In RStudio, make sure the following packages are loaded by running the following codes:</li>
@@ -2198,11 +2198,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 </div>
 <aside>
-The most common errors are solved by reinstalling R and RStudio, or updating R.
+The most common errors are solved by reinstalling R and RStudio, or updating R. Maybe you need to install the newest version of the packages! Otherwise, google <span class="emoji" data-emoji="smile">😄</span>
 </aside>
 <p> <br />
 2. Make a new R Project by clicking on the <em>New Project</em> button.
-<img src="resources/new_project.png" width="700" alt="New Project" /></p>
+<img src="resources/new_project.png" width="700" alt="New Directory" /></p>
 <ol start="3" type="1">
 <li><p>Click on <em>New Directory</em>, than select <em>Distill Website</em> from the list.</p></li>
 <li><p>Give your Website a directory name (a.k.a. name the folder), the title of your website (can be changed later) and check the box to <em>configure for Github Pages</em>! Now you have created a basic template.</p></li>
@@ -2220,13 +2220,26 @@ The most common errors are solved by reinstalling R and RStudio, or updating R.
 <aside>
 <p>Make sure you don’t copy the folder but only the contents, also the hidden ones!</p>
 </aside></li>
-<li><p>In your GitHub Desktop, <a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes"><em>commit</em> and <em>push!</em></a> Congratulations, you have made your website!</p></li>
+<li><p>In your GitHub Desktop, <a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes"><em>commit</em> and <em>push</em></a>!
+Congratulations, you have made your website! <span class="emoji" data-emoji="sparkles">✨</span></p></li>
 </ol>
-</section>
-<section id="setting-up-version-2" class="panel">
-<h2>Setting up (version 2)</h2>
-<p>TBD</p>
-</section>
+</div>
+<div class="panel">
+<p><span class="panel-name">Setting up (version elegant)</span></p>
+<p>We have found a more <em>elegant</em> version of creating a website in GitHub without having to move your website template into the repo. This way will allow you to create an R Project <em>directly</em> inside your repository.</p>
+<ol type="1">
+<li><p>Create a new repository in GitHub, configure it for GitHub Pages in the setting and clone it onto your laptop.</p>
+<aside>
+<p>The instructions are in <strong>Setting up (version 1)</strong>.</p>
+</aside></li>
+<li><p>Open RStudio and create a new project, however, this time click the option <strong>Existing Directory</strong>!<br />
+<img src="resources/existing_project.png" width="700" alt="Existing Directory" />
+Make sure to set your Project Working Directory to <strong>the cloned repository folder</strong> on your laptop!</p></li>
+<li><p>Now you will have a blank R Project with no Distill Website Template, but don’t fret! Just type the following line into the console, then enter your website title!</p></li>
+<li><p>Congratulations! You have made your website. <span class="emoji" data-emoji="sparkles">✨</span><br />
+</p></li>
+</ol>
+</div>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
