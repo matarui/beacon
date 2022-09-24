@@ -15,8 +15,11 @@ navbar:
       href: about.html
     - text: "Slides"
       href: slides.html
-    - text: "Setting Up"
-      href: settingup.html
+    - text: "Instructions"
+      href: instructions.html
     - icon: fab fa-github
       href: https://github.com/matarui/beacon
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+  
