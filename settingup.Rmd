@@ -1,7 +1,7 @@
 ---
-title: "Instructions"
+title: "Setting Up"
 description: |
-  Here are some recaps of the workshop and links to additional instructions for you to explore!
+  Here are some recaps of the workshop on how to set up your website in R Markdown and GitHub. 
 output:
   distill::distill_article:
     md_extensions: +emoji
@@ -19,7 +19,7 @@ xaringanExtra::use_panelset()
 ::::: {.panelset}
 
 ::: {.panel}
-[Setting up (version 1)]{.panel-name}
+[Version 1]{.panel-name}
 
 ### Creating the website template on your computer
 
@@ -30,15 +30,20 @@ library(distill)
 library(rmarkdown)
 ```  
 <aside>  
-The most common errors are solved by reinstalling R and RStudio, or updating R. Maybe you need to install the newest version of the packages! Otherwise, google :smile:
-</aside>
-&nbsp;  
+The most common errors are solved by reinstalling R and RStudio, or updating R. 
+Maybe you need to install the newest version of the packages! Otherwise, google :smile:
+</aside>  
+
 2. Make a new R Project by clicking on the *New Project* button.
 ![New Directory](resources/new_project.png){width=700px}
 
 3. Click on *New Directory*, than select *Distill Website* from the list.
 
 4. Give your Website a directory name (a.k.a. name the folder), the title of your website (can be changed later) and check the box to *configure for Github Pages*! Now you have created a basic template. 
+Make sure to save your .Rmd (R Markdown) files and `render_site()`, so that your .Rmd will be made into .html.
+<aside>
+Instead of `render_site()`, you can also click on **:hammer: Build Website**.
+</aside>
 
 ### Uploading your website on GitHub
 
@@ -60,11 +65,12 @@ Make sure you don't copy the folder but only the contents, also the hidden ones!
 </aside>
   
 6. In your GitHub Desktop, [*commit* and *push*](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes)!
+  
 Congratulations, you have made your website! :sparkles:
 :::
 
 ::: {.panel}
-[Setting up (version elegant)]{.panel-name}
+[Version elegant]{.panel-name}
 
 We have found a more *elegant* version of creating a website in GitHub without having to move your website template into the repo. This way will allow you to create an R Project *directly* inside your repository.
 
@@ -73,13 +79,19 @@ We have found a more *elegant* version of creating a website in GitHub without h
 The instructions are in **Setting up (version 1)**.
 </aside>
 
-2. Open RStudio and create a new project, however, this time click the option **Existing Directory**!  
+2. Open RStudio and create a new project, however, this time click the option **Existing Directory**, as shown in the screenshot below. 
 ![Existing Directory](resources/existing_project.png){width=700px}
 Make sure to set your Project Working Directory to **the cloned repository folder** on your laptop!
 
-3. Now you will have a blank R Project with no Distill Website Template, but don't fret! Just type the following line into the console, then enter your website title!
+3. Now you will have a blank R Project with no Distill Website Template, but don't fret! Just type the following line into the console, then enter your website title! Now you have a website template. Make sure to save and `render_site()`.
 
-4. Congratulations! You have made your website. :sparkles:  
+```{r create, eval=FALSE, echo=TRUE}
+distill::create_website(dir = getwd(), gh_pages = TRUE)
+```
+
+4. Now the only thing left is to [*commit* and *push*](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes) your changes in GitHub Desktop.
+  
+Congratulations! You have made your website. :sparkles:  
 :::
 
 :::::

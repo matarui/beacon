@@ -13,10 +13,10 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Materials"
+    - text: "Slides"
       href: slides.html
-    - text: "Instructions"
-      href: instructions.html
+    - text: "Setting Up"
+      href: settingup.html
     - icon: fab fa-github
       href: https://github.com/matarui/beacon
 output: distill::distill_article
