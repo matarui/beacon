@@ -31,3 +31,6 @@ I am a psychologist interested in individual and age differences in decision mak
 You can find an automated list of my publications [here](https://scholar.google.ch/citations?hl=en&user=dIJjxc4AAAAJ&view_op=list_works&sortby=pubdate).
 
 Please visit my [personal webpage](https://matarui.org/) to learn more about my research, teaching, and outreach projects.
+
+
+#### ... this an example page that uses the [postcards](https://github.com/seankross/postcards) package that you may want to also use for your own website...

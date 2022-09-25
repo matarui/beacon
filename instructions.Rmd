@@ -71,9 +71,9 @@ Congratulations, you have made your website! :sparkles:
 :::
 
 ::: {.panel}
-[Version elegant]{.panel-name}
+[Version 2]{.panel-name}
 
-We have found a more *elegant* version of creating a website in GitHub without having to move your website template into the repo. This way will allow you to create an R Project *directly* inside your repository.
+A second, more *elegant* version of creating a website in GitHub, without having to copy your website template into the repo. This way will allow you to create an R Project *directly* inside your repository.
 
 1. Create a new repository in GitHub, configure it for GitHub Pages in the setting and clone it onto your laptop.
 <aside>
@@ -101,7 +101,7 @@ Congratulations! You have made your website. :sparkles:
 
 Now the only thing left is to personalize your website and to add content! Please check out the official [Distill website](https://rstudio.github.io/distill/website.html) for great step-by-step instructions on how to build the site. 
 Please check out the tutorial from the [Distillery](https://distillery.rbind.io/posts/2021-03-16-postcards-distill/) on how to make an *about me* page.
-If you want to understand more of R Markdown, I recommend this webinar from Alison Hill and Desirée De Leon.
+If you want to understand more of R Markdown, we recommend this webinar from Alison Hill and Desirée De Leon.
 
 
 <p><a href="https://www.rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/?wvideo=6l7vg4inx5"><img src="https://embed-ssl.wistia.com/deliveries/ef8ead90ca962ed1c9475a54d22c78ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=71a5d4e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://www.rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/?wvideo=6l7vg4inx5">Sharing on Short Notice: How to Get Your Materials Online With R Markdown - RStudio</a></p>
